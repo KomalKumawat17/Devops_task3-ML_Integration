@@ -105,7 +105,7 @@ print("Sending mail...")
 import smtplib
 s=smtplib.SMTP('smtp.gmail.com',587)
 s.starttls()
-s.login("komal1725kk@gmail.com","mjipeehczuzmsxyh")
+s.login("komal1725kk@gmail.com","hanufakupvbpwqkm")
 message1="success"
 s.sendmail("komal1725kk@gmail.com","komal1725kk@gmail.com",message1)
 s.quit()
